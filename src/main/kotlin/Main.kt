@@ -1,5 +1,8 @@
 import kotlinx.browser.document
+import react.*
+import react.dom.client.createRoot
 
 fun main() {
-    document.bgColor = "red"
+    val container = document.getElementById("root") ?: error("Counld't find root Container!")
+    createRoot(container).render(App.create())
 }
