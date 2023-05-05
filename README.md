@@ -1,8 +1,19 @@
-[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+## 分步骤实施
+1. 第一阶段完成框架搭建，能够展示3D图形，3D模型和画布
+2. 第二阶段完成道路基础设置，能够绘制道路提供道路组件的封装和设置
+3. 第三阶段完成其他类似道路组件设置，能够绘制其他组件例如模型、停车线、斑马线
+4. 第四阶段完成交叉路口的设置，能够设置路口相关信息
+### 第一阶段
+1. 语言：基于Kotlin语言
+2. 框架：基于React的前端响应式框架
+3. 3D：BabylonJS
+4. 数学：暂无
+5. 其他：无
+### 第二阶段
 
-# Building Web Applications with React and Kotlin JS Hands-On Lab
+### 第三阶段
 
-This repository is the code corresponding to the hands-on lab Building Web Applications with React and Kotlin JS.
+### 第四阶段
 
-**You can find the code of the lab after each step outlined in the tutorial in the corresponding branch.**
+## 操作说明
+- 启动 mvn browserDevelopmentRun
